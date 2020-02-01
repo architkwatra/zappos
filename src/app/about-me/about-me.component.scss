@@ -1,0 +1,10 @@
+@import '../globalcss.scss';
+
+.text {
+    >h1 {
+        text-align: center;
+    }
+    >p{
+        font-size: larger;
+    }
+}

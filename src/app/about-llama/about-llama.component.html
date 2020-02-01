@@ -1,0 +1,19 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 my-image-container">
+    <!--source: https://fineartamerica.com/featured/llama-in-bolivia-delphimages-photo-creations.html -->
+      <img class="my-image" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/llama-in-bolivia-delphimages-photo-creations.jpg" alt="my picture">
+    </div>
+    <div class="col-md-9 text">
+        <ul>
+            <li *ngFor = "let fact of lamaFacts">
+                <h4>
+                    {{fact}}
+                </h4>
+            </li>
+        </ul>
+        <p>source: http://blogs.oregonstate.edu/animalconnection/2012/01/19/five-cool-things-about-llamas/</p>
+    </div>
+   </div>
+</div>

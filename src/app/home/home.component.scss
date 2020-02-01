@@ -1,0 +1,38 @@
+.main-container {
+    .center {
+        text-align: center;
+    }
+    margin-top: 1rem;
+    .col-md {
+        >h3{
+            color:  coral;
+        }
+    }    
+
+    .row {
+        .facts {
+            >ul {
+                list-style-type: square;
+            } 
+    
+            border-bottom: 10px solid coral;
+            color: coral;
+            margin: auto;
+            background-color: #343a40;
+            margin-bottom: 1rem;
+        }
+        margin: auto;
+    }
+    
+    .learn-more {
+        margin: 1rem;
+        >button {
+            background-color: white;
+            border: 1px solid coral;
+            &:hover {
+                color: white;
+                background-color: coral;
+            }
+        }
+    }    
+}

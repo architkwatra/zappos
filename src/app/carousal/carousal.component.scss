@@ -1,0 +1,22 @@
+@media screen and (min-width: 1200px) {
+  .carousel {
+    width: 60%;
+    margin: auto;
+  }
+
+  .carousel-inner {
+    height: fit-content;
+    border: 10px solid coral !important;
+    >img {
+      height: fit-content;
+    }
+  }
+}
+ 
+.carousel-inner {
+  height: fit-content;
+  border: 5px solid coral !important;
+  >img {
+    height: fit-content;
+  }
+}
